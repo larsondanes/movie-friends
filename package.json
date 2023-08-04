@@ -5,5 +5,7 @@
   "author": "Larson Danes <lgdanes@live.com>",
   "license": "MIT",
   "packageManager": "yarn@3.6.1",
-  "workspaces": []
+  "workspaces": [
+    "packages/*"
+  ]
 }
