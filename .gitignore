@@ -1,0 +1,23 @@
+# Dependency directories
+node_modules/
+
+# Distribution directories
+dist/
+
+# Misc
+.DS_Store
+.env
+
+# Logs
+yarn-debug.log*
+yarn-error.log*
+
+# Production
+build/
+
+# Cache
+.parcel-cache
+
+# Yarn
+.yarn/*
+

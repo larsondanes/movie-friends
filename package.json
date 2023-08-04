@@ -3,5 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Larson Danes <lgdanes@live.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "yarn@3.6.1",
+  "workspaces": []
 }
