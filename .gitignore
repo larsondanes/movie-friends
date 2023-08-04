@@ -26,3 +26,6 @@ build/
 !.yarn/sdks
 !.yarn/versions
 
+# IDE
+.vscode/
+

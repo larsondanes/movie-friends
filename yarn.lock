@@ -119,6 +119,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@movie-friends/client@workspace:packages/client"
   dependencies:
+    "@parcel/config-default": ^2.9.3
+    "@parcel/core": ^2.9.3
+    "@parcel/resolver-glob": ^2.9.3
     "@types/react": ^18.2.18
     "@types/react-dom": ^18.2.7
     parcel: ^2.9.3
@@ -225,7 +228,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@parcel/config-default@npm:2.9.3":
+"@parcel/config-default@npm:2.9.3, @parcel/config-default@npm:^2.9.3":
   version: 2.9.3
   resolution: "@parcel/config-default@npm:2.9.3"
   dependencies:
@@ -265,7 +268,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@parcel/core@npm:2.9.3":
+"@parcel/core@npm:2.9.3, @parcel/core@npm:^2.9.3":
   version: 2.9.3
   resolution: "@parcel/core@npm:2.9.3"
   dependencies:
@@ -609,6 +612,19 @@ __metadata:
     "@parcel/node-resolver-core": 3.0.3
     "@parcel/plugin": 2.9.3
   checksum: 9e14d5b9bc7333bf22bfc445b2659ef5337f7af2cc63ccefb2496b8a0989df2b021233cf8d5fe5d4f08a48b2a494ce997acddf951bbd6ffbec7336a015ee05da
+  languageName: node
+  linkType: hard
+
+"@parcel/resolver-glob@npm:^2.9.3":
+  version: 2.9.3
+  resolution: "@parcel/resolver-glob@npm:2.9.3"
+  dependencies:
+    "@parcel/diagnostic": 2.9.3
+    "@parcel/node-resolver-core": 3.0.3
+    "@parcel/plugin": 2.9.3
+    "@parcel/utils": 2.9.3
+    nullthrows: ^1.1.1
+  checksum: fc0d695ca3c7a3440e0a496e5a7c9ffe5a0239f4ebebf7393c5496053e8f37dedf0c03b8df4330ed6d46791ec6ba7873245ac57ae0730d519f2949dbb007170c
   languageName: node
   linkType: hard
 
@@ -2433,6 +2449,9 @@ __metadata:
 "movie-friends@workspace:.":
   version: 0.0.0-use.local
   resolution: "movie-friends@workspace:."
+  dependencies:
+    process: ^0.11.10
+    typescript: ^5.1.6
   languageName: unknown
   linkType: soft
 
@@ -2775,6 +2794,13 @@ __metadata:
     posthtml-parser: ^0.11.0
     posthtml-render: ^3.0.0
   checksum: 8b9b9d27bd2417d6b5b7d408000b23316c3c4d2a2d0ea62080a8fbec5654cc7376ea9d6317b290c030d616142144a8ca0a96ffe1e919493e3eac17442d362596
+  languageName: node
+  linkType: hard
+
+"process@npm:^0.11.10":
+  version: 0.11.10
+  resolution: "process@npm:0.11.10"
+  checksum: bfcce49814f7d172a6e6a14d5fa3ac92cc3d0c3b9feb1279774708a719e19acd673995226351a082a9ae99978254e320ccda4240ddc474ba31a76c79491ca7c3
   languageName: node
   linkType: hard
 
