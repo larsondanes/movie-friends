@@ -14,6 +14,11 @@
     "@parcel/resolver-glob": "^2.9.3",
     "@types/react": "^18.2.18",
     "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-plugin-react": "latest",
     "parcel": "^2.9.3",
     "typescript": "^5.1.6"
   }
