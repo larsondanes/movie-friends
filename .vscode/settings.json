@@ -1,0 +1,10 @@
+{
+  "search.exclude": {
+    "**/.yarn": true
+  },
+  "eslint.workingDirectories": ["./packages/client"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
