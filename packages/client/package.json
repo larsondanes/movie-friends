@@ -2,7 +2,8 @@
   "name": "@movie-friends/client",
   "packageManager": "yarn@3.6.1",
   "scripts": {
-    "start": "parcel public/index.html"
+    "start": "parcel public/index.html",
+    "lint": "eslint ."
   },
   "dependencies": {
     "react": "^18.2.0",
