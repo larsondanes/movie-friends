@@ -3,8 +3,5 @@
     "browser": true,
     "es2021": true
   },
-  "plugins": ["react"],
-  "rules": {
-    "no-console": 2
-  }
+  "plugins": ["react"]
 }
