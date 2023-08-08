@@ -228,6 +228,7 @@ __metadata:
   dependencies:
     "@types/koa": ^2.13.8
     "@types/node": ^20.4.8
+    eslint: ^8.46.0
     koa: ^2.14.2
     nodemon: ^3.0.1
     ts-node: ^10.9.1
@@ -247,8 +248,6 @@ __metadata:
     "@typescript-eslint/eslint-plugin": latest
     "@typescript-eslint/parser": latest
     eslint: ^8.46.0
-    eslint-config-prettier: ^8.10.0
-    eslint-plugin-prettier: ^5.0.0
     eslint-plugin-react: latest
     parcel: ^2.9.3
     react: ^18.2.0
@@ -2722,17 +2721,6 @@ __metadata:
   version: 4.0.0
   resolution: "escape-string-regexp@npm:4.0.0"
   checksum: 98b48897d93060f2322108bf29db0feba7dd774be96cd069458d1453347b25ce8682ecc39859d4bca2203cc0ab19c237bcc71755eff49a0f8d90beadeeba5cc5
-  languageName: node
-  linkType: hard
-
-"eslint-config-prettier@npm:^8.10.0":
-  version: 8.10.0
-  resolution: "eslint-config-prettier@npm:8.10.0"
-  peerDependencies:
-    eslint: ">=7.0.0"
-  bin:
-    eslint-config-prettier: bin/cli.js
-  checksum: 153266badd477e49b0759816246b2132f1dbdb6c7f313ca60a9af5822fd1071c2bc5684a3720d78b725452bbac04bb130878b2513aea5e72b1b792de5a69fec8
   languageName: node
   linkType: hard
 
