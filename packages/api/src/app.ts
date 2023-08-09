@@ -9,9 +9,11 @@ router.get("/ping", async (ctx, next) => {
   await next();
 });
 
-app.use(async (ctx: Koa.Context) => {
-  ctx.body = "Hewwo and wew all lads ong frfr";
+router.get("/", async (ctx: Koa.Context) => {
+  ctx.body = "Howdy doodly, world";
+  ctx.status = 200;
 });
+
 app.use(router.routes());
 
 export default app;
