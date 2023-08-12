@@ -1,9 +1,19 @@
-import Koa from "koa";
+import Koa, { Next } from "koa";
+import Router from "koa-router";
 
 const app: Koa = new Koa();
+const router: Router = new Router();
 
-app.use(async (ctx: Koa.Context) => {
-  ctx.body = "Hewwo and wew all lads ong frfr";
+router.get("/ping", async (ctx: Koa.Context, next: Next) => {
+  ctx.body = "pong";
+  await next();
 });
+
+router.get("/", async (ctx: Koa.Context) => {
+  ctx.body = "Howdy doodly, world";
+  ctx.status = 200;
+});
+
+app.use(router.routes());
 
 export default app;
