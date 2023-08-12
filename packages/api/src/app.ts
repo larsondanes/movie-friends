@@ -1,10 +1,10 @@
-import Koa from "koa";
+import Koa, { Next } from "koa";
 import Router from "koa-router";
 
 const app: Koa = new Koa();
 const router: Router = new Router();
 
-router.get("/ping", async (ctx, next) => {
+router.get("/ping", async (ctx: Koa.Context, next: Next) => {
   ctx.body = "pong";
   await next();
 });
